@@ -1,0 +1,5 @@
+how_times = input("何回:")
+how_long = input("何時間:")
+where = input("どこで:")
+work = "私は週に{}回、{}時間、{}で働いている。".format(how_times,how_long,where)
+print(work)
